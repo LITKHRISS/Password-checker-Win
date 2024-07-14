@@ -37,15 +37,16 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(273, 198);
+            label1.Location = new Point(190, 202);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(133, 15);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "ENTER YOUR PASWORD";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(317, 198);
+            textBox1.Location = new Point(329, 199);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
@@ -53,7 +54,7 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(317, 227);
+            richTextBox1.Location = new Point(329, 228);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(100, 96);
             richTextBox1.TabIndex = 2;
@@ -61,12 +62,13 @@
             // 
             // button1
             // 
-            button1.Location = new Point(423, 198);
+            button1.Location = new Point(445, 199);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
